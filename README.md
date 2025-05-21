@@ -34,7 +34,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+You will need to log into the osTicket VM in azure and download the installation files and unzip them. After this you need to enable ISS and then make a PHP manager for ISS. Then from the folder open the rewrite module and create a directory C:/PHP. In the files unzip PHP 7.3.8 into the C:/PHP folder. From the installation folder install VC_redist.X86.exe and MySQL 5.5.62 once this is open to a typical setup and launch the wizard configuration and then make the username:root and password:root 
 </p>
 <br />
 
@@ -42,7 +42,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Open IIS as an admin, in IIS register PHP, then reload. from the osTicket folder unzip the osTicket-v1.15.8zip and then copy the upload folder into c:\inetpub\wwwroot and then within that file rename the upload folder to osTicket.
 </p>
 <br />
 
@@ -50,6 +50,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+go back to IIS and then reload go to sites-default-osTicket then click browse :80. Then go to PHP manager and enable extensions php_imap.dll,php_intl.dll and php_opcache.dll then click refresh. Rename ost-config-php in there assign permissions to everyone and disable inheritance continue setting up osTicket in the browser and install HeidiSQL. open Heidi create a session and create a database called osTicket. In Heidi the database should be osTicket, the username and password: root. Then click install then it should be installed!
 <br />
