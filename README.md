@@ -31,7 +31,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src=https://1drv.ms/i/c/b755d88960427cd9/EbuIleYR5z5Aot5hoMkF6vMBgfMEOH6TwSpgsM5YO28d7w?e=gdGrH8
+<img src=![Osticket](https://github.com/user-attachments/assets/dfe27267-f514-4764-a91f-2523acc640d1)
+
 </p>
 <p>
 You will need to log into the osTicket VM in azure and download the installation files and unzip them. After this you need to enable ISS and then make a PHP manager for ISS. Then from the folder open the rewrite module and create a directory C:/PHP. In the files unzip PHP 7.3.8 into the C:/PHP folder. From the installation folder install VC_redist.X86.exe and MySQL 5.5.62 once this is open to a typical setup and launch the wizard configuration and then make the username:root and password:root 
