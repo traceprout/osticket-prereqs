@@ -53,8 +53,9 @@ Open IIS as an admin, in IIS register PHP, then reload. from the osTicket folder
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![osticket 3](https://github.com/user-attachments/assets/a49bf052-9728-44b7-bf5a-56e80a3ed578)
+
 </p>
 <p>
 go back to IIS and then reload go to sites-default-osTicket then click browse :80. Then go to PHP manager and enable extensions php_imap.dll,php_intl.dll and php_opcache.dll then click refresh. Rename ost-config-php in there assign permissions to everyone and disable inheritance continue setting up osTicket in the browser and install HeidiSQL. open Heidi create a session and create a database called osTicket. In Heidi the database should be osTicket, the username and password: root. Then click install then it should be installed!
