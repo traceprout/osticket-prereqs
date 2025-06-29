@@ -44,7 +44,8 @@ You will need to log into the osTicket VM in azure and download the installation
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![osticket 2](https://github.com/user-attachments/assets/36f44577-ddf8-4ab7-be94-a4380552273b)
+
 </p>
 <p>
 Open IIS as an admin, in IIS register PHP, then reload. from the osTicket folder unzip the osTicket-v1.15.8zip and then copy the upload folder into c:\inetpub\wwwroot and then within that file rename the upload folder to osTicket.
