@@ -43,8 +43,9 @@ You will need to log into the osTicket VM in azure and download the installation
 </p>
 <br />
 
-<p>
-![osticket 2](https://github.com/user-attachments/assets/36f44577-ddf8-4ab7-be94-a4380552273b)
+
+![osticket 2](https://github.com/user-attachments/assets/4d1b710f-3ce0-4f12-91fb-a7e78a5c6738)
+
 
 </p>
 <p>
